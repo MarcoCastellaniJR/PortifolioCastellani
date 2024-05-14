@@ -1,0 +1,138 @@
+*{
+    text-decoration: none;
+}
+.bod {
+    background: #0e1c20;
+    width: 100vh;
+    height: 100vw;
+    background: linear-gradient(to bottom,#0e1c20,#0e99c1);
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: relative;
+    width: 100vh;
+}
+
+.header-pag {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.title{
+    transition: 1s ease;
+}
+.title {
+    font-weight: 1000;
+    font-size: 20pt;
+    color: #0e99c1;
+}
+.title:hover{
+    color: white;
+}
+.links-div a {
+    transition: 0.5s ease;
+}
+.links-div a {
+    color: #0e99c1;
+    padding: 10px;
+    font-size: 10pt;
+}
+.links-div a:hover{
+    color: white;
+}
+img{
+    width: 400px;
+}
+.img-rad{
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container{
+    margin: 20px;
+    margin-top: 100px;
+    position: relative;
+    width: 100vh;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+}
+.int-cont{
+    margin: 30px;
+}
+.txt{
+    padding: 20px;
+    color: white;
+}.txt p{
+    font-size: 10pt;
+    padding: 15px;
+}
+.txt h2{
+    padding: 0px 15px;
+    font-weight: bold;
+}
+.txt h3{
+    padding: 0px 15px;
+    color: #0e99c1;
+    font-size: 24px;
+    font-weight: 1000;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.link-01{
+    border: 2px solid #0e99c1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #0e99c1;
+    color: #0e1c20;
+    font-weight: bold;
+    transition: 1s ease;
+}
+.link-01:hover{
+    border: 2px solid #0e99c1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #0e99c1;
+    background: #0e1c20;
+    font-weight: bold;
+}
+
+.link-02{
+    border: 2px solid #0e99c1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #0e99c1;
+    font-weight: bold;
+    transition: 1s ease;
+    background: #0e1c20;
+}
+.link-02:hover{
+    border: 2px solid #0e99c1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #0e99c1;
+    color: #0e1c20;
+    font-weight: bold;
+}
+.cont-media{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;    
+}
+.media img{
+    height: 50px;
+    width: auto;
+    margin: 15px;
+    transition: 1s ease;
+}
