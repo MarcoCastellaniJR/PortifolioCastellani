@@ -1,13 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+}
+.nav {
+    justify-content: space-around;
 }
 .nav-link{
     transition: all 1s ease;
 }
 .nav-link{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .centerbody{
@@ -64,7 +69,8 @@ h3{
 
 
 
+
 #conteudo {
-    width: 100vh;
-    height: max-content;
+    width: 100vw;
+    height: 100vh;
 }

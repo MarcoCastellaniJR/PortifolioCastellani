@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body .back01{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.back-esq{
+    width: 40vw;
+}
+.back-dir{
+    width: 40vw;
+}
+.teste {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.corpo{
+    border: 25px;
+    padding: 25px;
+}
+.pag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-page{
+    margin: 20px;
+}
