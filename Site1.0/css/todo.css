@@ -1,0 +1,46 @@
+* {
+    background-color: #fff;
+    margin: 0;
+    border: 0;
+
+}
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #31389b;
+    justify-content: center;
+    align-items: end;
+}
+.to-do {
+    border-radius: 15px 15px 0px 0px;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100vw;
+    
+}
+.inputs{
+    background: rgb(211, 211, 211);
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+}
+.inputname{
+    width: 100%;
+}
+
+.tasks {
+    display: none;
+}
