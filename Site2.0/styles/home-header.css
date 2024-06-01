@@ -1,0 +1,233 @@
+:root{
+    --color1: #5c6972;
+    --color2: #d5d5d5;
+    --color3: #3a63a8;
+    --color4: #050834; 
+    --color5: #7cb8f2; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+}
+
+
+/* HEADER FICA AQUI POIS TEM MESMA IMPORTANCIA QUE TODO O SITE
+POIS SERÁ SEMPRE EXIBIDO, EM TODA PÁGINA  */
+#intro{
+    width: 100vw;
+    top: 0px;
+    padding: 20px;
+    background: var(--color3);
+}
+#container-header{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h-lista ul {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+li{
+    background: transparent;
+}
+#h-lista ul li a{
+    margin: 10px;
+    position: relative;
+    padding: 0px 5px;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+}
+#dev-cast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dev-cast a{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 25px;
+
+}
+#dev-cast a:hover{
+    
+}
+#h-lista ul li a:hover:after{
+    width: 100%;
+}
+
+#perfil{
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* central e footer */
+
+
+#intro-int{
+    position: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: black;
+}
+#esq-total{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#esq-total img{
+    border-radius: 50%;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.8);
+
+}
+#dir-total{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#dir-total{
+    height: 100%;
+    width: 50%;
+}
+#esq-total img{
+    height: 300px;
+}
+.social-media{
+    height: 100%;
+}
+
+#nome-pes{
+    margin-bottom: 20px;
+}
+
+#text-animation{
+    display: inline-block;
+}
+.text{
+    color: var(--color4);
+    /* font-size: 5em; */
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 4s steps(20) infinite,
+        cursor .4s linear infinite;
+}
+@keyframes cursor {
+    0% { border-color: transparent;}
+}
+
+@keyframes typing {
+    0%{ width: 0;}
+    50%{ width: 100%;}
+}
+
+
+
+
+
+
+/* footer animaiton  */
+
+#scroll-fast{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    align-items: center;
+}
+#scroll-fast img{
+    margin-bottom: 20px;
+    position: absolute;
+    height: 80px;
+    background: transparent;
+}
+#css{
+    animation: horizontal-scroll-fast-css 10s infinite linear;
+}
+#html{
+    animation: horizontal-scroll-fast-html 10s infinite linear;
+}
+#js{
+    animation: horizontal-scroll-fast-js 10s infinite linear;
+}
+#java{
+    animation: horizontal-scroll-fast-java 10s infinite linear;
+}
+
+@keyframes horizontal-scroll-fast-css {
+    0%{transform: translateX(-100vw);}
+    1%{transform: translateX(-2vw)}
+    24%{transform: translateX(2vw)}
+    25%{transform: translateX(99vw)}
+    100%{transform: translateX(100vw);}
+}
+@keyframes horizontal-scroll-fast-html {
+    0%{transform: translateX(-100vw);}
+    24%{transform: translateX(-100vw)}
+    25%{transform: translateX(-2vw)}
+    49%{transform: translateX(2vw)}
+    50%{transform: translateX(99vw)}
+    100%{transform: translateX(100vw);}
+}
+@keyframes horizontal-scroll-fast-js {
+    0%{transform: translateX(-100vw);}
+    49%{transform: translateX(-100vw)}
+    50%{transform: translateX(-2vw)}
+    74%{transform: translateX(2vw)}
+    75%{transform: translateX(99vw)}
+    100%{transform: translateX(100vw);}
+}
+@keyframes horizontal-scroll-fast-java {
+    0%{transform: translateX(-100vw);}
+    74%{transform: translateX(-100vw)}
+    75%{transform: translateX(-2vw)}
+    99%{transform: translateX(2vw)}
+    100%{transform: translateX(100vw);}
+}
+#base:hover #scroll-fast{
+    animation-play-state: paused;
+}

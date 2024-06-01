@@ -1,0 +1,26 @@
+:root{
+    --color1: #5c6972;
+    --color2: #d5d5d5;
+    --color3: #3a63a8;
+    --color4: #050834; 
+    --color5: #7cb8f2; 
+}
+#back-end{
+    width: 100%;
+    height: 100vh;
+}
+#back-head{
+    background: var(--color1);
+    height: 30px;
+}
+#back-head ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+#back-end #conteudo-central{
+    height: 100%;
+    
+}
