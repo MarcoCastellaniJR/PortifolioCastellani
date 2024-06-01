@@ -53,5 +53,33 @@ p{
     background: transparent;
 }
 #dir-inf a i:hover{
-    color: red;
+    color: var(--color4);
+}
+
+#nome-pes{
+    margin-bottom: 20px;
+}
+
+#text-animation{
+    display: inline-block;
+}
+.text{
+    color: var(--color4);
+    /* font-size: 5em; */
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 4s steps(20) infinite,
+        cursor .4s linear infinite;
+}
+@keyframes cursor {
+    0% { border-color: transparent;}
+}
+
+@keyframes typing {
+    0%{ width: 0;}
+    50%{ width: 100%;}
 }
